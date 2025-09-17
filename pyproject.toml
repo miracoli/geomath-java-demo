@@ -1,0 +1,14 @@
+[project]
+name = "geomath-demo"
+version = "0.1.0"
+description = "Tiny 2D geometry helpers with one deliberate bug."
+authors = [{ name = "Demo" }]
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+test = ["pytest>=7.0"]
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
